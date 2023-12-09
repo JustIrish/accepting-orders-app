@@ -18,22 +18,11 @@
 
   &__btn {
     padding: 16px;
-    background-color: var(--primary-color);
     width: 108px;
     font-size: 14px;
     font-weight: 600;
     line-height: 1.43;
-    border-radius: 8px;
-    transition: opacity var(--transition);
-
-    &:hover,
-    &:focus {
-      opacity: 0.7;
-    }
   }
-  //   @media (max-width: 1200px) {
-  //     font-size: 26px;
-  //   }
 }
 
 .description {
