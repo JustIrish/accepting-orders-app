@@ -1,0 +1,57 @@
+.header {
+  background-color: var(--main-color);
+  padding: 16px 0;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+  }
+}
+
+.menu {
+  width: 100%;
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 6);
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color var(--transition);
+
+    &:hover,
+    &:focus,
+    & .active {
+      background-color: var(--primary-color);
+    }
+  }
+}
+
+.btn-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--text-white);
+  transition: opacity var(--transition);
+
+  &:hover,
+  &:focus {
+    opacity: 0.7;
+  }
+}
