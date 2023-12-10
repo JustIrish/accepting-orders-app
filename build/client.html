@@ -18,8 +18,8 @@
       <div class="container">
         <div class="header__row">
           <nav class="menu">
-            <a href="index.html" class="menu__item active-menu">Меню</a>
-            <a href="client.html" class="menu__item">Клієнт</a>
+            <a href="index.html" class="menu__item">Меню</a>
+            <a href="client.html" class="menu__item active-menu">Клієнт</a>
             <a href="inform.html" class="menu__item">Інформація</a>
             <a href="promotion.html" class="menu__item">Акції</a>
             <a href="basket.html" class="menu__item">Кошик</a>
@@ -29,7 +29,29 @@
         </div>
       </div>
     </header>
-    @@include('blocks/main-menu.html') @@include('blocks/footer.html')
-    <script src="./js/index.bundle.js"></script>
+    <main>
+  <h1 class="visually-hidden">Information about client</h1>
+  <div class="client-menu">
+    <p class="menu__item">Ім'я</p>
+    <p class="menu__item">Телефон</p>
+    <p class="menu__item">Вулиця</p>
+    <p class="menu__item">Буд-кв</p>
+    <div class="info__disc info__disc-client">
+      Сума:
+      <p class="info__data">250 &#8372;</p>
+    </div>
+  </div>
+</main>
+ <footer class="footer">
+  <div class="container">
+    <div class="footer__wrapper">
+      <h2 class="footer__title">Прийом замовлень</h2>
+      <p class="description">Безкоштовних соусів: 1</p>
+      <p class="description">Обрано: 1</p>
+      <button class="button footer__btn" type="button">Далі ></button>
+    </div>
+  </div>
+</footer>
+
   </body>
 </html>

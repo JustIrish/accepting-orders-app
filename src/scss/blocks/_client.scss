@@ -1,0 +1,14 @@
+.client-menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px 16px;
+  background-color: var(--main-color);
+  color: var(--text-color);
+}
+
+.info__disc-client {
+  color: var(--main-color);
+  width: 300px;
+}

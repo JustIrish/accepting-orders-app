@@ -27,14 +27,18 @@
     padding: 8px 12px;
     border-radius: 6px;
     cursor: pointer;
+    color: inherit;
     transition: background-color var(--transition);
 
     &:hover,
-    &:focus,
-    & .active {
+    &:focus {
       background-color: var(--primary-color);
     }
   }
+}
+
+.active-menu {
+  background-color: var(--primary-color);
 }
 
 .btn-close {
