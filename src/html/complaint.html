@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Прийом замовлень</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <nav class="menu">
+            <a href="index.html" class="menu__item">Меню</a>
+            <a href="client.html" class="menu__item active-menu">Клієнт</a>
+            <a href="inform.html" class="menu__item">Інформація</a>
+            <a href="promotion.html" class="menu__item">Акції</a>
+            <a href="basket.html" class="menu__item">Кошик</a>
+            <a href="result.html" class="menu__item">Підсумок</a>
+          </nav>
+          <button class="button btn-close" type="button">
+            <svg class="btn-close__icon">
+              <use xlink:href="img/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1 class="visually-hidden">Complaint page</h1>
+      <div class="information">
+        <div class="info__desc info__desc-client">
+          Сума:
+          <p class="info__data">250 &#8372;</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="client-name-section">
+          <div class="client-data">
+            <input
+              type="text"
+              class="input-client-data"
+              placeholder="Ведіть ім'я"
+            />
+            <input
+              type="text"
+              class="input-client-data"
+              placeholder="Ведіть час замовлення"
+            />
+            <input
+              type="text"
+              class="input-client-data input-complaint"
+              placeholder="Ведіть скаргу"
+            />
+            <button class="button send-btn" type="button">Надіслати</button>
+          </div>
+          <div class="complaint-keyboard-box">
+            <div class="keyboard-number">
+              <div class="complaint-keyboard-box__item">1</div>
+              <div class="complaint-keyboard-box__item">2</div>
+              <div class="complaint-keyboard-box__item">3</div>
+              <div class="complaint-keyboard-box__item">4</div>
+              <div class="complaint-keyboard-box__item">5</div>
+              <div class="complaint-keyboard-box__item">6</div>
+              <div class="complaint-keyboard-box__item">7</div>
+              <div class="complaint-keyboard-box__item">8</div>
+              <div class="complaint-keyboard-box__item">9</div>
+              <div class="complaint-keyboard-box__item">0</div>
+            </div>
+            <div class="keyboard-number-letter">
+              <div class="complaint-keyboard-box__item">й</div>
+              <div class="complaint-keyboard-box__item">ц</div>
+              <div class="complaint-keyboard-box__item">у</div>
+              <div class="complaint-keyboard-box__item">к</div>
+              <div class="complaint-keyboard-box__item">е</div>
+              <div class="complaint-keyboard-box__item">н</div>
+              <div class="complaint-keyboard-box__item">г</div>
+              <div class="complaint-keyboard-box__item">ш</div>
+              <div class="complaint-keyboard-box__item">щ</div>
+              <div class="complaint-keyboard-box__item">з</div>
+              <div class="complaint-keyboard-box__item">х</div>
+              <div class="complaint-keyboard-box__item">ф</div>
+              <div class="complaint-keyboard-box__item">і</div>
+              <div class="complaint-keyboard-box__item">в</div>
+              <div class="complaint-keyboard-box__item">а</div>
+              <div class="complaint-keyboard-box__item">п</div>
+              <div class="complaint-keyboard-box__item">р</div>
+              <div class="complaint-keyboard-box__item">о</div>
+              <div class="complaint-keyboard-box__item">л</div>
+              <div class="complaint-keyboard-box__item">д</div>
+              <div class="complaint-keyboard-box__item">ж</div>
+              <div class="complaint-keyboard-box__item">є</div>
+              <div class="complaint-keyboard-box__item">
+                <svg class="btn-close__icon">
+                  <use xlink:href="img/sprite.svg#icon-close"></use>
+                </svg>
+              </div>
+              <div class="keyboard-box__item">я</div>
+              <div class="keyboard-box__item">ч</div>
+              <div class="keyboard-box__item">с</div>
+              <div class="keyboard-box__item">м</div>
+              <div class="keyboard-box__item">и</div>
+              <div class="keyboard-box__item">т</div>
+              <div class="keyboard-box__item">ь</div>
+              <div class="keyboard-box__item">б</div>
+              <div class="keyboard-box__item">ю</div>
+              <div class="keyboard-box__item">
+                <svg class="info__btn-icon">
+                  <use xlink:href="img/sprite.svg#icon-left"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    @@include('blocks/footer.html')
+  </body>
+</html>
