@@ -45,22 +45,3 @@
     margin-left: 10px;
   }
 }
-
-.promotion-code {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
-  width: 50%;
-  border-radius: 8px;
-  background-color: var(--main-color);
-  padding: 24px;
-
-  &__btn {
-    width: calc((100% - 20px) / 3);
-    height: 102.5px;
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 6.66;
-  }
-}
