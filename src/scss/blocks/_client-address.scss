@@ -6,18 +6,29 @@
 }
 
 .address-wrap {
+  width: 100%;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   gap: 24px;
+}
+
+.label-address-wrap {
+  width: calc((100% - 24px) / 2);
+}
+
+.label-address-det-wrap {
+  width: calc((100% - 48px) / 3);
 }
 
 .label-address {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.43;
+  margin-bottom: 6px;
 }
 
 .input-addrass {
+  display: block;
   height: 50px;
   padding: 10px 14px;
   border-radius: 8px;
@@ -27,13 +38,11 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  margin-top: 6px;
 }
 
-// .input-addrass-details {
-//   width: calc((100% - 48px) / 3);
-//   flex-grow: 1;
-// }
+.input-addrass-details {
+  max-width: 160px;
+}
 
 .address-deiails-box {
   display: flex;
