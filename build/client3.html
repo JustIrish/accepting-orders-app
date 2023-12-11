@@ -34,32 +34,35 @@
       </div>
     </header>
     <main>
-      <h1 class="visually-hidden">Complaint page</h1>
-      <div class="information">
+      <h1 class="visually-hidden">Client number phone</h1>
+      <div class="client-menu">
+        <a href="client.html" class="menu__item">Ім'я</a>
+        <a href="client2.html" class="menu__item">Телефон</a>
+        <a href="client3.html" class="menu__item active-menu">Вулиця</a>
+        <a href="" class="menu__item">Буд-кв</a>
         <div class="info__desc info__desc-client">
           Сума:
           <p class="info__data">250 &#8372;</p>
         </div>
       </div>
       <div class="container">
-        <div class="client-name-section">
-          <div class="client-data">
+        <div class="client-street-section">
+          <div class="street-input-flex-wrap">
+            <div class="choice-wrap">
+              <div class="choice-item">в</div>
+              <div class="choice-item">м</div>
+            </div>
             <input
+              class="input-street"
               type="text"
-              class="input-client-data"
-              placeholder="Ведіть ім'я"
+              placeholder="Введіть вулицю або місто"
             />
-            <input
-              type="text"
-              class="input-client-data"
-              placeholder="Ведіть час замовлення"
-            />
-            <input
-              type="text"
-              class="input-client-data input-complaint"
-              placeholder="Ведіть скаргу"
-            />
-            <button class="button send-btn" type="button">Надіслати</button>
+          </div>
+          <div class="street-example-wrap">
+            <div class="street-example">Київський пр-кт 155</div>
+            <div class="street-example">Київський пр-кт 155</div>
+            <div class="street-example">Київський пр-кт 155</div>
+            <div class="street-example">Київський пр-кт 155</div>
           </div>
           <div class="full-keyboard">
   <div class="keyboard-number">
