@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Прийом замовлень</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <nav class="menu">
+            <a href="index.html" class="menu__item">Меню</a>
+            <a href="client.html" class="menu__item active-menu">Клієнт</a>
+            <a href="inform.html" class="menu__item">Інформація</a>
+            <a href="promotion.html" class="menu__item">Акції</a>
+            <a href="basket.html" class="menu__item">Кошик</a>
+            <a href="result.html" class="menu__item">Підсумок</a>
+          </nav>
+          <button class="button btn-close" type="button">
+            <svg class="btn-close__icon">
+              <use xlink:href="img/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1 class="visually-hidden">Client number phone</h1>
+      <div class="client-menu">
+        <a href="client.html" class="menu__item">Ім'я</a>
+        <a href="client2.html" class="menu__item active-menu">Телефон</a>
+        <a href="" class="menu__item">Вулиця</a>
+        <a href="" class="menu__item">Буд-кв</a>
+        <div class="info__desc info__desc-client">
+          Сума:
+          <p class="info__data">250 &#8372;</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="client-flex-box">
+          <div class="promotion-details">
+            <p class="input-phone-desc">Введіть номер телефону</p>
+            <input
+              class="input-phone"
+              type="tel"
+              placeholder="+38(066)-85-85-879"
+            />
+          </div>
+          <div class="promotion-code">
+            <button class="button promotion-code__btn" type="button">1</button>
+            <button class="button promotion-code__btn" type="button">2</button>
+            <button class="button promotion-code__btn" type="button">3</button>
+            <button class="button promotion-code__btn" type="button">4</button>
+            <button class="button promotion-code__btn" type="button">5</button>
+            <button class="button promotion-code__btn" type="button">6</button>
+            <button class="button promotion-code__btn" type="button">7</button>
+            <button class="button promotion-code__btn" type="button">8</button>
+            <button class="button promotion-code__btn" type="button">9</button>
+            <button class="button promotion-code__btn" type="button">x</button>
+            <button class="button promotion-code__btn" type="button">0</button>
+            <button class="button promotion-code__btn" type="button">--</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__wrapper">
+      <h2 class="footer__title">Прийом замовлень</h2>
+      <p class="description">Безкоштовних соусів: 1</p>
+      <p class="description">Обрано: 1</p>
+      <button class="button footer__btn" type="button">
+        Далі
+        <svg class="footer__btn-icon">
+          <use xlink:href="img/sprite.svg#icon-right"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
