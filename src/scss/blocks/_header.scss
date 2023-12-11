@@ -44,6 +44,10 @@
 .btn-close {
   width: 40px;
   height: 40px;
-  padding: 10px 18px;
-  border: 1px solid var(--primary-color);
+  padding: 5px;
+
+  &__icon {
+    width: 30px;
+    height: 30px;
+  }
 }

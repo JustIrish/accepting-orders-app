@@ -25,7 +25,11 @@
             <a href="basket.html" class="menu__item">Кошик</a>
             <a href="result.html" class="menu__item">Підсумок</a>
           </nav>
-          <button class="button btn-close" type="button">x</button>
+          <button class="button btn-close" type="button">
+             <svg class="btn-close__icon">
+              <use xlink:href="img/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
         </div>
       </div>
     </header>
@@ -53,7 +57,10 @@
     <div class="flex-box">
       <div class="promotion-details">
         <button class="button promotion-details__btn" type="button">
-          Відхилити акції по коду Х
+          Відхилити акції по коду
+          <svg class="promotion-details__btn-icon">
+            <use xlink:href="img/sprite.svg#icon-close"></use>
+          </svg>
         </button>
       </div>
       <div class="promotion-code">
@@ -79,7 +86,12 @@
       <h2 class="footer__title">Прийом замовлень</h2>
       <p class="description">Безкоштовних соусів: 1</p>
       <p class="description">Обрано: 1</p>
-      <button class="button footer__btn" type="button">Далі ></button>
+      <button class="button footer__btn" type="button">
+        Далі
+        <svg class="footer__btn-icon">
+          <use xlink:href="img/sprite.svg#icon-right"></use>
+        </svg>
+      </button>
     </div>
   </div>
 </footer>

@@ -1,0 +1,31 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-close" viewBox="0 0 32 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7813" d="M11.6 11.6l8.8 8.8M11.6 20.4l8.8-8.8"></path>
+</symbol>
+<symbol id="icon-hashtag" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M16.946 32l4.86-29.62h4.050l-4.86 29.62h-4.050zM3.597 24.364l0.68-4.050h22.793l-0.68 4.050h-22.793zM6.533 32l4.86-29.62h4.050l-4.86 29.62h-4.050zM5.318 14.066l0.665-4.050h22.793l-0.665 4.050h-22.793z"></path>
+</symbol>
+<symbol id="icon-left" viewBox="0 0 32 32">
+<path fill="none" stroke="#eaecf0" style="stroke: var(--color2, #eaecf0)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M22.5 2l-10.661 12.438c-0.77 0.899-0.77 2.225 0 3.124l10.661 12.438"></path>
+</symbol>
+<symbol id="icon-minus" viewBox="0 0 32 32">
+<path fill="none" stroke="#101828" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M6.667 16h18.667"></path>
+</symbol>
+<symbol id="icon-multiply" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M14.328 29.922l0.523-9.205-7.727 5.068-2.773-4.818 8.25-4.136-8.25-4.136 2.773-4.818 7.727 5.068-0.523-9.205h5.523l-0.5 9.205 7.727-5.068 2.773 4.818-8.273 4.136 8.273 4.136-2.773 4.818-7.727-5.068 0.5 9.205h-5.523z"></path>
+</symbol>
+<symbol id="icon-plus" viewBox="0 0 32 32">
+<path fill="none" stroke="#101828" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M27.314 16h-22.627M16 4.686v22.627"></path>
+</symbol>
+<symbol id="icon-right" viewBox="0 0 32 32">
+<path fill="none" stroke="#eaecf0" style="stroke: var(--color2, #eaecf0)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M9.5 30l10.661-12.438c0.77-0.899 0.77-2.225 0-3.124l-10.661-12.438"></path>
+</symbol>
+<symbol id="icon-thumbs-down" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M21.516 20.744c-0.101-0.267-0.206-0.543-0.243-0.643l-0.037-0.101h4.097c2.493 0 4-1.757 4-4 0-7.925-1.66-13.333-5.333-13.333 0 0-9.302 0-9.335-0-0.877-0.016-1.991 0.108-3.114 0.509-0.491 0.176-0.942 0.394-1.347 0.656-0.48-0.703-1.288-1.165-2.204-1.165h-2.667c-1.473 0-2.667 1.194-2.667 2.667v12c0 1.473 1.194 2.667 2.667 2.667h2.667c0.264 0 0.52-0.039 0.761-0.11 0.929 1.353 3.28 4.039 5.168 6.197l0 0c1.024 1.17 1.912 2.185 2.364 2.748l0.4 0.498h0.65c0.809 0 1.513-0.061 2.321-0.297 1.791-0.522 3.002-1.741 3.002-3.703 0-0.694-0.123-1.433-0.349-2.253-0.15-0.543-0.335-1.091-0.588-1.772-0.036-0.097-0.124-0.328-0.213-0.564zM12.449 5.687c-1.179 0.422-1.782 1.11-1.783 2.311v9.336c0 0.32 0.059 0.604 0.189 0.907 0.233 0.544 2.347 2.956 4.351 5.242l0 0c1.034 1.18 2.039 2.326 2.74 3.165 0.335-0.025 0.651-0.077 0.972-0.17 0.764-0.223 1.081-0.542 1.081-1.143 0-0.422-0.085-0.936-0.253-1.545-0.125-0.455-0.288-0.936-0.516-1.549-0.032-0.087-0.113-0.299-0.198-0.524l-0-0.001-0.001-0.002-0-0.001c-0.105-0.276-0.217-0.572-0.259-0.685-0.173-0.469-0.288-0.814-0.366-1.128-0.332-1.334 0.001-2.565 1.594-2.565h5.333c0.922 0 1.333-0.48 1.333-1.333 0-6.388-1.313-10.667-2.667-10.667l-9.379-0.001c-0.587-0.011-1.407 0.080-2.172 0.354zM5.333 17.333v-12h2.667v12h-2.667z"></path>
+</symbol>
+<symbol id="icon-trash" viewBox="0 0 32 32">
+<path fill="none" stroke="#667085" style="stroke: var(--color3, #667085)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.3333" d="M10 12h1.333M11.333 12h10.667M11.333 12v9.333c0 0.354 0.14 0.693 0.39 0.943s0.589 0.39 0.943 0.39h6.667c0.354 0 0.693-0.14 0.943-0.39s0.39-0.589 0.39-0.943v-9.333h-9.333zM13.333 12v-1.333c0-0.354 0.14-0.693 0.39-0.943s0.589-0.39 0.943-0.39h2.667c0.354 0 0.693 0.14 0.943 0.39s0.39 0.589 0.39 0.943v1.333M14.667 15.333v4M17.333 15.333v4"></path>
+</symbol>
+</defs>
+</svg>

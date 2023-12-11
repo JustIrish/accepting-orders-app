@@ -36,7 +36,13 @@
   &__btn {
     width: 100%;
     height: 50px;
-    padding: 10px 16px;
+    padding: 16px 16px;
+  }
+
+  &__btn-icon {
+    width: 28px;
+    height: 28px;
+    margin-left: 10px;
   }
 }
 
