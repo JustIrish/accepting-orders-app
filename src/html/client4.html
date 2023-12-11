@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Прийом замовлень</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <nav class="menu">
+            <a href="index.html" class="menu__item">Меню</a>
+            <a href="client.html" class="menu__item active-menu">Клієнт</a>
+            <a href="inform.html" class="menu__item">Інформація</a>
+            <a href="promotion.html" class="menu__item">Акції</a>
+            <a href="basket.html" class="menu__item">Кошик</a>
+            <a href="result.html" class="menu__item">Підсумок</a>
+          </nav>
+          <button class="button btn-close" type="button">
+            <svg class="btn-close__icon">
+              <use xlink:href="img/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1 class="visually-hidden">Client number phone</h1>
+      <div class="client-menu">
+        <a href="client.html" class="menu__item">Ім'я</a>
+        <a href="client2.html" class="menu__item">Телефон</a>
+        <a href="client3.html" class="menu__item">Вулиця</a>
+        <a href="client4.html" class="menu__item active-menu">Буд-кв</a>
+        <div class="info__desc info__desc-client">
+          Сума:
+          <p class="info__data">250 &#8372;</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="client-flex-box">
+          <div class="address-flex-box">
+            <div class="address-wrap">
+              <label class="label-address" for="house"
+                >Будинок<input
+                  class="input-addrass flex-g"
+                  type="number"
+                  name="house"
+                  placeholder="16"
+              /></label>
+              <label class="label-address" for="apartment"
+                >Квартира<input
+                  class="input-addrass flex-g"
+                  type="number"
+                  name="apartment"
+                  placeholder="158"
+              /></label>
+            </div>
+            <div class="address-wrap">
+              <label class="label-address" for="floor"
+                >Поверх<input
+                  class="input-addrass input-addrass-details"
+                  type="number"
+                  name="floor"
+                  placeholder="3"
+              /></label>
+              <label class="label-address" for="code"
+                >Код<input
+                  class="input-addrass input-addrass-details"
+                  type="number"
+                  name="code"
+                  placeholder="158"
+              /></label>
+              <label class="label-address" for="entrance"
+                >Під<input
+                  class="input-addrass input-addrass-details"
+                  type="number"
+                  name="entrance"
+                  placeholder="5"
+              /></label>
+            </div>
+            <div class="address-deiails-box">
+              <div class="address-details-letter">
+                <div class="address-details-letter__item">А</div>
+                <div class="address-details-letter__item">Б</div>
+                <div class="address-details-letter__item">В</div>
+                <div class="address-details-letter__item">Г</div>
+                <div class="address-details-letter__item">Д</div>
+                <div class="address-details-letter__item">Е</div>
+                <div class="address-details-letter__item">І</div>
+                <div class="address-details-letter__item">К</div>
+              </div>
+              <div class="address-details">
+                <div class="address-details__item">На вахті</div>
+                <div class="address-details__item">Відд Вхлд</div>
+                <div class="address-details__item">Приват Буд</div>
+                <div class="address-details__item">Дзвоніть!</div>
+                <div class="address-details__item">Перший</div>
+                <div class="address-details__item">Останній</div>
+                <div class="address-details__item">ПередОст</div>
+                <div class="address-details__item">Кутовий</div>
+                <div class="address-details__item">Цоколь</div>
+                <div class="address-details__item">
+                  <svg class="address-details__icon">
+                    <use xlink:href="img/sprite.svg#icon-asterisk"></use>
+                  </svg>
+                </div>
+                <div class="address-details__item">
+                  <svg class="address-details__icon1">
+                    <use xlink:href="img/sprite.svg#icon-hashtag"></use>
+                  </svg>
+                </div>
+                <div class="address-details__item"></div>
+              </div>
+            </div>
+          </div>
+          @@include('blocks/num-keyboard.html')
+        </div>
+      </div>
+    </main>
+    @@include('blocks/footer.html')
+  </body>
+</html>

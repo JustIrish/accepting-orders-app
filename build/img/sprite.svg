@@ -12,7 +12,7 @@
 <symbol id="icon-minus" viewBox="0 0 32 32">
 <path fill="none" stroke="#101828" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M6.667 16h18.667"></path>
 </symbol>
-<symbol id="icon-multiply" viewBox="0 0 32 32">
+<symbol id="icon-asterisk" viewBox="0 0 32 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M14.328 29.922l0.523-9.205-7.727 5.068-2.773-4.818 8.25-4.136-8.25-4.136 2.773-4.818 7.727 5.068-0.523-9.205h5.523l-0.5 9.205 7.727-5.068 2.773 4.818-8.273 4.136 8.273 4.136-2.773 4.818-7.727-5.068 0.5 9.205h-5.523z"></path>
 </symbol>
 <symbol id="icon-plus" viewBox="0 0 32 32">
