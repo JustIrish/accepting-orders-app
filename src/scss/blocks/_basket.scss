@@ -11,7 +11,7 @@
   }
 
   thead th:nth-child(2) {
-    width: 15%;
+    width: 16%;
   }
 
   thead th:nth-child(3) {
@@ -19,11 +19,11 @@
   }
 
   thead th:nth-child(4) {
-    width: 15%;
+    width: 16%;
   }
 
   thead th:nth-child(5) {
-    width: 10%;
+    width: 8%;
   }
 
   th {
@@ -44,4 +44,59 @@
     padding: 16px 24px;
     border: 1px solid var(--border-color);
   }
+
+  td.td-flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+  }
+}
+
+.basket__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  background-color: var(--page-bg);
+
+  transition: box-shadow var(--transition);
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 2px 3px 1px rgba(16, 24, 40, 0.07);
+  }
+}
+
+.basket__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.basket__trash-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 8px;
+  border-color: transparent;
+  background-color: var(--page-bg);
+
+  transition: box-shadow var(--transition);
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 2px 3px 1px rgba(16, 24, 40, 0.07);
+  }
+}
+
+.basket__trash-icon {
+  width: 40px;
+  height: 40px;
 }

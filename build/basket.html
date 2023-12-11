@@ -25,7 +25,11 @@
             <a href="basket.html" class="menu__item active-menu">Кошик</a>
             <a href="result.html" class="menu__item">Підсумок</a>
           </nav>
-          <button class="button btn-close" type="button">x</button>
+          <button class="button btn-close" type="button">
+             <svg class="btn-close__icon">
+              <use xlink:href="img/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
         </div>
       </div>
     </header>
@@ -53,22 +57,73 @@
           <td>М'ясна 31см</td>
           <td>120</td>
           <td>1</td>
-          <td>+</td>
-          <td>-</td>
+          <td class="td-flex-box">
+            <button class="basket__btn" type="button">
+              <svg class="basket__icon">
+                <use xlink:href="img/sprite.svg#icon-plus"></use>
+              </svg>
+            </button>
+            <button class="basket__btn" type="button">
+              <svg class="basket__icon">
+                <use xlink:href="img/sprite.svg#icon-minus"></use>
+              </svg>
+            </button>
+          </td>
+          <td>
+            <button class="basket__trash-btn" type="button">
+              <svg class="basket__trash-icon">
+                <use xlink:href="img/sprite.svg#icon-trash"></use>
+              </svg>
+            </button>
+          </td>
         </tr>
         <tr>
           <td>М'ясна 31см</td>
           <td>120</td>
           <td>1</td>
-          <td>+</td>
-          <td>-</td>
+          <td class="td-flex-box">
+            <button class="basket__btn" type="button">
+              <svg class="basket__icon">
+                <use xlink:href="img/sprite.svg#icon-plus"></use>
+              </svg>
+            </button>
+            <button class="basket__btn" type="button">
+              <svg class="basket__icon">
+                <use xlink:href="img/sprite.svg#icon-minus"></use>
+              </svg>
+            </button>
+          </td>
+          <td>
+            <button class="basket__trash-btn" type="button">
+              <svg class="basket__trash-icon">
+                <use xlink:href="img/sprite.svg#icon-trash"></use>
+              </svg>
+            </button>
+          </td>
         </tr>
         <tr>
           <td>М'ясна 31см</td>
           <td>120</td>
           <td>1</td>
-          <td>+</td>
-          <td>-</td>
+          <td class="td-flex-box">
+            <button class="basket__btn" type="button">
+              <svg class="basket__icon">
+                <use xlink:href="img/sprite.svg#icon-plus"></use>
+              </svg>
+            </button>
+            <button class="basket__btn" type="button">
+              <svg class="basket__icon">
+                <use xlink:href="img/sprite.svg#icon-minus"></use>
+              </svg>
+            </button>
+          </td>
+          <td>
+            <button class="basket__trash-btn" type="button">
+              <svg class="basket__trash-icon">
+                <use xlink:href="img/sprite.svg#icon-trash"></use>
+              </svg>
+            </button>
+          </td>
         </tr>
       </tbody>
     </table>
@@ -80,7 +135,12 @@
       <h2 class="footer__title">Прийом замовлень</h2>
       <p class="description">Безкоштовних соусів: 1</p>
       <p class="description">Обрано: 1</p>
-      <button class="button footer__btn" type="button">Далі ></button>
+      <button class="button footer__btn" type="button">
+        Далі
+        <svg class="footer__btn-icon">
+          <use xlink:href="img/sprite.svg#icon-right"></use>
+        </svg>
+      </button>
     </div>
   </div>
 </footer>

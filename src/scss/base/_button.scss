@@ -5,11 +5,12 @@
   justify-content: center;
   align-items: center;
   border-radius: 8px;
+  border-color: transparent;
 
-  transition: opacity var(--transition);
+  transition: background-color var(--transition);
 
   &:hover,
   &:focus {
-    opacity: 0.7;
+    background-color: #14282d;
   }
 }
