@@ -1,6 +1,5 @@
 {
   "name": "accepting-orders-app",
-  "homepage": "https://JustIrish.github.io/accepting-orders-app/",
   "devDependencies": {
     "@babel/core": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
