@@ -72,12 +72,20 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: 24px 100px;
+  padding: 24px 120px;
   justify-content: center;
   align-items: center;
   gap: 10px;
   border-radius: 8px;
   background-color: var(--main-color);
+
+  @media screen and (max-width: 739px) {
+    padding: 24px 60px;
+  }
+
+  @media screen and (min-width: 1199px) {
+    padding: 24px 150px;
+  }
 
   &__item {
     width: 65px;

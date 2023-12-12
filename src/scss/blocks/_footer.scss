@@ -3,6 +3,10 @@
   padding: 16px 0;
   color: var(--text-color);
 
+  @media screen and (max-width: 739px) {
+    font-size: 14px;
+  }
+
   &__title {
     font-weight: 500;
     line-height: 1.5;
@@ -18,7 +22,6 @@
 
   &__btn {
     padding: 16px;
-    // width: 108px;
     font-size: 14px;
     font-weight: 600;
     line-height: 1.43;
@@ -42,4 +45,8 @@
   font-size: 18px;
   font-weight: 500;
   line-height: 1.11;
+
+  @media screen and (max-width: 739px) {
+    font-size: 14px;
+  }
 }

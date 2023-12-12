@@ -5,9 +5,17 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
-  padding: 24px 100px;
+  padding: 24px 120px;
   border-radius: 8px;
   background-color: var(--main-color);
+
+  @media screen and (max-width: 739px) {
+    padding: 24px 60px;
+  }
+
+  @media screen and (min-width: 1199px) {
+    padding: 24px 150px;
+  }
 
   &__item {
     width: 65px;
@@ -25,9 +33,14 @@
 
 .keyboard-number {
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
   gap: 8px;
+
+  @media screen and (max-width: 739px) {
+    flex-wrap: wrap;
+  }
 }
 
 .keyboard-letter {

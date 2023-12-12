@@ -114,6 +114,10 @@
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 8px;
+
+    @media screen and (max-width: 739px) {
+      font-size: 16px;
+    }
   }
 
   &__data {

@@ -1,6 +1,6 @@
 .list-menu {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   gap: 4px;
   flex-wrap: wrap;
   padding: 16px 0;
@@ -15,6 +15,18 @@
     background-color: var(--bg-white);
     border-radius: 8px;
     border: 1px solid var(--border-color);
+
+    @media screen and (max-width: 739px) {
+      justify-content: space-between;
+    }
+  }
+
+  &__item-title {
+    font-size: 16px;
+
+    @media screen and (max-width: 739px) {
+      font-size: 14px;
+    }
   }
 }
 

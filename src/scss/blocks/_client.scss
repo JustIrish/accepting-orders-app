@@ -6,6 +6,16 @@
   padding: 0 24px 16px;
   background-color: var(--main-color);
   color: var(--text-color);
+
+  @media screen and (max-width: 739px) {
+    font-size: 14px;
+    font-weight: 400;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 1479px) {
+    padding: 0 265px 16px;
+  }
 }
 
 .info__desc-client {

@@ -1,5 +1,9 @@
 .promotion-info {
   justify-content: space-between;
+
+  @media screen and (max-width: 739px) {
+    flex-wrap: wrap;
+  }
 }
 
 .flex-wrap {
@@ -17,6 +21,10 @@
   font-size: 18px;
   font-weight: 500;
   line-height: 1.11;
+
+  @media screen and (max-width: 739px) {
+    font-size: 14px;
+  }
 }
 
 .promotion-data {
