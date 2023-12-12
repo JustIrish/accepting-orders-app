@@ -1,0 +1,104 @@
+.cont-bg {
+  background-color: var(--main-color);
+}
+
+.order-list {
+  padding: 24px 0 12px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+
+  &__item {
+    position: relative;
+    padding: 12px;
+    width: calc((100% - 16px) / 3);
+    min-height: 205px;
+    border-radius: 12px;
+    background-color: var(--bg-white);
+    color: var(--main-color);
+  }
+
+  &__item-empty {
+    padding: 12px;
+    width: calc((100% - 16px) / 3);
+    min-height: 205px;
+    border-radius: 12px;
+    background-color: #29444a;
+  }
+}
+
+.order-num {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 20px;
+  font-weight: 600;
+
+  @media screen and (max-width: 739px) {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+.order-min {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #cd402e;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-white);
+}
+
+.order-desc {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 20px;
+  font-weight: 600;
+
+  @media screen and (max-width: 739px) {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+.order-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 37px;
+
+  @media screen and (max-width: 739px) {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+
+.order-det {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  font-size: 20px;
+  font-weight: 600;
+
+  @media screen and (max-width: 739px) {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+.order-active {
+  background-color: #c4ebac;
+}
+
+.status-done {
+  background-color: #18a16a;
+}
+
+.status-soon {
+  background-color: #ef9300;
+}
