@@ -31,10 +31,6 @@
     "style-loader": "^3.3.3",
     "webpack-stream": "^7.0.0"
   },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
   "babel": {
     "presets": [
       "@babel/preset-env"
