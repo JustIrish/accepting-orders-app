@@ -92,6 +92,10 @@ aside {
     color: var(--text-white);
   }
 
+  &__percent-det {
+    font-size: 14px;
+  }
+
   &__desc {
     color: #dee8f5;
     font-size: 12px;
@@ -101,7 +105,7 @@ aside {
 
 .statistics-details {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 4px;
 }
 
